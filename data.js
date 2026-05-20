@@ -322,20 +322,6 @@ window.EQUIPOS = [
     "qr": "./qr/XTM-ROBOSHOT-048.png"
   },
   {
-    "codigo": "XTM-BOMBA-978",
-    "equipo": "BOMBA DE HORMIGON TK 1004",
-    "tipo": "Bomba",
-    "modelo": "Bomba de Hormigon TK 1004",
-    "marca": "",
-    "estado": "Pendiente",
-    "tipo_certificado": "Sin certificado adjunto",
-    "rig": "",
-    "serie": "",
-    "certificado_pdf": "",
-    "validacion": "./validar.html?id=XTM-BOMBA-978",
-    "qr": ""
-  },
-  {
     "codigo": "XTM-MIX-132",
     "equipo": "MIXER",
     "tipo": "Mixer",
