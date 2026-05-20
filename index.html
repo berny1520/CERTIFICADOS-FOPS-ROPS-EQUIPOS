@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>XTREME MINING | Equipos y Certificados</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__top">
+      <img src="./assets/logo.svg" alt="Xtreme Mining" class="logo">
+      <div class="hero__actions">
+        <a class="btn ghost" href="./data/equipos.csv">Base CSV</a>
+        <a class="btn" href="./docs/PLAN_TRABAJO_XTREME_MINING.md">Plan de trabajo</a>
+      </div>
+    </div>
+    <div class="hero__content">
+      <p class="eyebrow">Sistema GitHub Pages funcional</p>
+      <h1>Catálogo documental de equipos y certificados</h1>
+      <p>Control de equipos XTREME MINING con acceso directo a certificados FOPS/ROPS, cabina, ergonomía, validación por código y lectura móvil.</p>
+    </div>
+    <section class="kpis" id="kpis"></section>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <div class="filters">
+        <input id="buscar" type="search" placeholder="Buscar por código, equipo, serie, modelo...">
+        <select id="tipo"><option value="">Todos los tipos</option></select>
+        <select id="estado"><option value="">Todos los estados</option><option>Certificado</option><option>Pendiente</option></select>
+      </div>
+    </section>
+
+    <section class="table-card">
+      <div class="table-head">
+        <h2>Equipos cargados</h2>
+        <span id="contador"></span>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Código</th><th>Equipo</th><th>Tipo</th><th>Marca / Modelo</th><th>Serie / Rig</th><th>Estado</th><th>Certificado</th><th>Validación</th></tr></thead>
+          <tbody id="tabla"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer>XTREME MINING - Control documental de equipos | Versión GitHub Pages PRO</footer>
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
